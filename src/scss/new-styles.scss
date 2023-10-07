@@ -1,0 +1,23 @@
+// set the variable
+$primary-color: black;
+$secondary-color: hotpink;
+
+@import 'reset';
+
+@import 'base';
+
+@import 'content';
+
+@import 'nav';
+
+.container {
+  min-height: 100%;
+  display: flex;
+}
+
+
+
+
+
+
+
