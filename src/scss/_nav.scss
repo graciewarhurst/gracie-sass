@@ -6,19 +6,21 @@
   padding-right: 15px;
   text-align: center;
   color: $secondary-color;
+
+  a:link {
+    color: $secondary-color;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: $secondary-color;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $secondary-color;
+    text-decoration: underline;
+  }
+
 }
 
-a:link {
-  color: $primary-color;
-  text-decoration: none;
-}
-
-a:visited {
-  color: $primary-color;
-  text-decoration: none;
-}
-
-a:hover {
-  color: $primary-color;
-  text-decoration: underline;
-}
